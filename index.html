@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172820">
+  <meta name="description" content="Simulado teórico de armamento e tiro baseado na cartilha de 2017.">
+  <title>Simulado Armamento e Tiro</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="questions.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="#inicio" aria-label="Início"><span class="brand-mark">AT</span><span>Armamento <i>&</i> Tiro</span></a><span class="top-label">TREINO TEÓRICO</span></header>
+  <main id="app" class="shell">
+    <section id="intro" class="intro">
+      <div class="eyebrow"><span class="dot"></span> SIMULADO INDEPENDENTE</div>
+      <h1>Conhecimento que<br><em>começa pela segurança.</em></h1>
+      <p class="lead">Pratique os conteúdos da Cartilha de Armamento e Tiro com uma nova combinação de questões a cada tentativa.</p>
+      <div class="facts"><div><strong>20</strong><span>questões por tentativa</span></div><div><strong>60%</strong><span>nota mínima para aprovação</span></div><div><strong>60</strong><span>questões no banco</span></div></div>
+      <div class="allocation"><span>COMPOSIÇÃO DA PROVA</span><div><span>Segurança <b>6</b></span><span>Nomenclatura <b>6</b></span><span>Estande <b>3</b></span><span>Legislação* <b>5</b></span></div></div>
+      <div class="notice"><span class="notice-icon">i</span><p><strong>Sobre este material</strong><br>A cartilha-base é de 2017. A legislação pode ter mudado. Este simulado é apenas treino teórico: não substitui instrutor credenciado nem avaliação prática.</p></div>
+      <button id="start" class="button button-primary">Começar simulado <span aria-hidden="true">→</span></button>
+      <p class="privacy-note">Sem cadastro. Seu progresso fica apenas nesta página.</p>
+    </section>
+    <section id="quiz" class="quiz hidden" aria-live="polite"></section>
+    <section id="results" class="results hidden" aria-live="polite"></section>
+    <footer>Conteúdo para fins educativos · Baseado na Cartilha de Armamento e Tiro, versão 1.0.3 (2017)</footer>
+  </main>
+</body>
+</html>
